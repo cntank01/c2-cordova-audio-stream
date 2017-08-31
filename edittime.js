@@ -65,3 +65,11 @@ function IDEInstance(instance, type)
 	for (var i = 0; i < property_list.length; i++)
 		this.properties[property_list[i].name] = property_list[i].initial_value;
 }
+
+IDEInstance.prototype.OnCreate = function() {}
+
+IDEInstance.prototype.OnPropertyChanged = function(property_name) {}
+
+IDEInstance.prototype.Draw = function(renderer) {}
+
+IDEInstance.prototype.OnRendererReleased = function() {}

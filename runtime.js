@@ -13,9 +13,6 @@ cr.plugins_.audio_stream = function(runtime)
 (function ()
 {
 	var pluginProto = cr.plugins_.audio_stream.prototype;
-		
-	/////////////////////////////////////
-	// Object type class
 	pluginProto.Type = function(plugin)
 	{
 		this.plugin = plugin;
@@ -24,17 +21,16 @@ cr.plugins_.audio_stream = function(runtime)
 
 	var typeProto = pluginProto.Type.prototype;
 	
-	typeProto.onCreate = function()
-	{
-	};
-
-	/////////////////////////////////////
-	// Instance class
+	typeProto.onCreate = function(){};
 	pluginProto.Instance = function(type)
 	{
 		this.type = type;
 		this.runtime = type.runtime;
-
+	};
+	
+	var instanceProto = pluginProto.Instance.prototype;
+	
+	instanceProto.onCreate = function() {
 		var self = this;
 		if (this.runtime.isAndroid || this.runtime.isiOS){
 			init();
@@ -46,11 +42,8 @@ cr.plugins_.audio_stream = function(runtime)
 				}
 			}, function(s) {
 			});
-		 
 		}
 	};
-	
-	var instanceProto = pluginProto.Instance.prototype;
 
 	//////////////////////////////////////
 	// Conditions
@@ -104,11 +97,4 @@ cr.plugins_.audio_stream = function(runtime)
 	};
 	
 	pluginProto.acts = new Acts();
-	
-	//////////////////////////////////////
-	// Expressions
-	function Exps() {};
-	
-	pluginProto.exps = new Exps();
-
 }());
