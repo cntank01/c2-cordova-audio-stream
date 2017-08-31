@@ -11,14 +11,14 @@ This plugin allows you to play radio directly in your Construct 2 cordova applic
 - Choose the first plugin and press 'Install'
 ### How to use
 <img src="http://drive.google.com/uc?export=view&id=0BzN1mes44aBVczJfNktMWEp4dFU" width="50%"/>
- 1. Audio URL (Stream URL) have to match one of formats below:
+
+ Audio URL (Stream URL) have to match one of formats below:
 - http://xxxx:1232
 - http://xxxx/abc.pls
 - http://xxxx/abc.ram
 - http://xxxx/abc.wax
 - http://xxxx/abc.m4a
 - http://xxxx/abc.mp3
- 2. Stream title and subtitle - any string
 
 ### Downloads
 | APK | CAPX |
@@ -28,5 +28,5 @@ This plugin allows you to play radio directly in your Construct 2 cordova applic
 ### Contacts
 
 If you have any problems with using this plugin, you can contact me
- - scirra.com/users/norman74
- - vk.com/norman74
+ - [Scirra](https://www.scirra.com/users/norman74)
+ - [Vk.com](https://vk.com/norman74)
