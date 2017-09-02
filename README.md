@@ -4,6 +4,8 @@ This plugin allows you to play radio directly in your Construct 2 cordova applic
 
 <img src="http://drive.google.com/uc?export=view&id=0BzN1mes44aBVdy1obEo5OUlPeE0" width="40%"/>
 
+### Supported platforms
+ - Cordova
 ### Installation (CocoonIO)
 - Open 'Plugins' tab in Main page
 - Choose 'Search' in left menu
@@ -23,7 +25,7 @@ This plugin allows you to play radio directly in your Construct 2 cordova applic
 ### Downloads
 | APK | CAPX |
 | ------ | ------ |
-| [![](http://drive.google.com/uc?export=view&id=0BzN1mes44aBVS0VaakZvOVJnUXc)](https://drive.google.com/open?id=0BzN1mes44aBVNUE3VGI4OGZFeU0) | [![](http://drive.google.com/uc?export=view&id=0BzN1mes44aBVRUM3VlRpWnBLT2c)](https://drive.google.com/open?id=0BzN1mes44aBVbzJkNGUwWDhqdFE) |
+|[![](http://drive.google.com/uc?export=view&id=0BzN1mes44aBVS0VaakZvOVJnUXc)](https://drive.google.com/open?id=0BzN1mes44aBVNUE3VGI4OGZFeU0) | [![](http://drive.google.com/uc?export=view&id=0BzN1mes44aBVRUM3VlRpWnBLT2c)](https://drive.google.com/open?id=0BzN1mes44aBVbzJkNGUwWDhqdFE) |
 
 ### Contacts
 
